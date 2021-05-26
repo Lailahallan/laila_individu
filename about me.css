@@ -1,0 +1,112 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("gambar3.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+ul li{
+	display:inline-table;
+}
+
+ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #CD5C5C;
+	padding: 5px 20px;
+	border: 1px solid #B8860B transparent;
+	transition: 0.3s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000000;
+}
+
+.side-bar{
+	 width: 1%;
+	 height: 350%;
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 background: #ff69b4
+ }
+ 
+h1 {
+	font-family: 'Lucida console', 'courier new', monospace;
+	font-size: 80px;
+	text-align: center;
+	top:10%;
+	left: 10%;
+	transform: translate (-50%,-50%);
+	font-family: 'courier new', monospace;
+	background: #FAEBD7;
+	padding: 5px;
+}
+
+h3{
+	position: absolute;
+	margin-bottom:30%;
+	left:7%;
+    text-align: center;
+	font-family: 'titan one', cursive;
+	font-size: 40px;
+	color: #ffe4e1;
+}
+
+p {
+	color: black;
+	top: 20%;
+	padding: 20px;
+	margin-right: 100px;
+	font-size: 20px;
+	font-family: myFirstFont;
+}
+
+h2{
+	margin-top: 50%;
+	color: gray;
+	font-family: "lucida console", "courier new", monospace;
+}
+
+h4{
+	font-size: 30px;
+	font-family:'courier new', cursive;
+	margin-bottom: 40px;
+	color: 800000;
+}
+h6{
+	bottom: 20%;
+	font-size: 5px;
+	right: 20%;
+}
+
+.list {
+	list-style-type: none;
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'courier new', monospace;
+	display: inline-block;
+	margin-left: 33%;
+	text-align: center
+}
+
+
+
+	
+
+
+
